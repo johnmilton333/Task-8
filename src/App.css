@@ -1,38 +1,414 @@
-.App {
+
+
+
+
+a {
+
+
+  color: goldenrod;
+  /* text-decoration: underline; */
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+   color:goldenrod; 
+}
+.nav-link:focus, .nav-link:hover {
+  color:goldenrod;
+}
+.nav-link{
+  color: goldenrod;
+}
+.vall {
+  width: 10%;
+  height: 70px;
+  background-image: url(../src/image/b.png);
+  background-position: center;
+  background-size: cover; /* Adjust to your needs */
+  color: goldenrod;
+}
+.all{
+  background-position: center;
+  background-size: cover;
+}
+.dropdown-menu[data-bs-popper]{
+  background:black;
+}
+.vall h1{
+  margin-left: 120px;
+  font-size: 30px;
+  margin-top: 20px;
+ 
+}
+.words{
+  text-align: right;
+  color: goldenrod;
+}
+.files1{
+  width: 100%;
+  height: 850px;
+  background:black;
+  position: relative;
+  
+}
+.first{
+  width: 50%;
+  height: 650px;
+  background: lightcoral;
+  float: left;
+
+}
+.second{
+  width: 50%;
+  height: 650px;
+  background: lightseagreen;
+  float: left;
+}
+.img1{
+  width: 30rem;
+  height: 400px;
+  background-image:url(./image/imh1.png);
+  background-position: center;
+  background-size: cover;
+  border: 4px solid goldenrod;
+ 
+}
+
+
+.files1 h1{
+  color: goldenrod;
+  margin-top: 30px;
   text-align: center;
+  left: 650px;
+  position: absolute;
+  border: 2px solid goldenrod;
+  padding: 2px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+
+
+
+
+.blue1{
+  float: left;
+  margin-left: 20px;
+  margin-top: 150px;
+
+}
+.img2{
+  width: 30rem;
+  height: 400px;
+  background-image:url(./image/imh2.webp);
+  background-position: top;
+  background-size: cover;
+  border: 4px solid goldenrod;
+ 
+}
+.img3{
+  width: 30rem;
+  height: 400px;
+  background-image:url(./image/imh4.png);
+  background-position: center;
+  background-size: cover;
+  border: 4px solid goldenrod;
+ 
+}
+.card-body{
+  background:black;
+  color: goldenrod;
+  border-color: goldenrod;
+}
+.card{
+  border: 3px solid goldenrod;
+}
+.btn-primary{
+  background: #000;
+  border: 1px solid goldenrod;
+}
+.img3:hover{
+  width: 30rem;
+  height: 480px;
+
+}
+.img2:hover{
+  width: 32rem;
+  height: 430px;
+
+}
+.img1:hover{
+  width: 30rem;
+  height: 380px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.destination{
+  margin-left: 100px;
+  width: 100%;
+  height: 700px;
+  
+  border-radius: 10px;
+  box-shadow: 1px 1px  5px goldenrod;
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.des-row{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-evenly;
+  padding: 5px;
+}
+ 
+.des-row-img{
+  height: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.final{
+  width: 100%;
+  height: 900px;
+  background:black;
+  position: relative;
+}
+.container-fluid{
+margin-top: 100px;
+position: absolute;
+}
+.final h1{
+  color: goldenrod;
+  margin-top: 10px;
+  text-align: center;
+  left: 650px;
+  position: absolute;
+  border: 1px solid goldenrod;
+  padding: 2px
+  
+
+}
+.card {
+  border: 1px solid goldenrod;
+  box-shadow: 1px 1px  5px goldenrod;
+}
+.first{
+  width: 100%;
+  height:650px;
+  background: #000;
+  background-image: url(./image/njnj.jpg);
+  background-position: right;
+ 
+  background-size:860px;
+  background-repeat: repeat-y;
+  background-position: top right;
+  
+
+}
+.path1{
+  width:50%;
+  height: 500px;
+  background:red;
+  text-align: center;
+  position: relative;
+  background-image: url(./image/mnmn.avif);
+  background-position: center;
+ 
+  background-size:cover;
+  margin-top: 150px;
+  border-radius: 20px;
+ 
+}
+.nxt1{
+  margin-top:60px;
+  background: #000;
+  position: absolute;
+}
+.nxt2{
+  margin-top:120px;
+  background-color:black;
+  position: absolute;
+}
+.nxt3{
+  margin-top:180px;
+  background-color:black;
+  position: absolute;
+}
+.nxt4{
+  margin-top:240px;
+  background-color:black;
+  position: absolute;
+}
+.nxt5{
+  margin-top:290px;
+  background-color:black;
+  position: absolute;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.nxt6{
+  margin-top:400px;
+  background-color:black;
+  position: absolute;
+  color: white;
+  margin-left: 50px;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nxt7{
+  margin-top:355px;
+  margin-left: 380px;
+  color: black;
+  color: white;
+  
+  position: absolute;
+  
 }
+.nxt8{
+  margin-top:355px;
+  margin-left: 450px;
+  color: white;
+  
+  position: absolute;
+  
+}
+.nxt9{
+  margin-top:355px;
+  margin-left: 520px;
+  color: white;
+  
+  position: absolute;
+  
+}
+.first h1{
+  color: goldenrod;
+  margin-top: -100px;
+ 
+ 
+ 
+  left: 480px;
+  position: absolute;
+  border: 1px solid goldenrod;
+  padding: 2px;
+
+}
+
+.note1 i{
+   
+    color:white;
+}
+  
+.switch{
+    width: 25%;
+    height: 70px;
+   
+    margin-left: 570px;
+    color: aliceblue;
+    top: 100px;
+    
+
+    background-color: black;
+    border-bottom: 6px solid goldenrod;
+    border-radius: 20px;
+    position: absolute;
+  
+   
+  
+    
+    
+}
+.note1{
+    font-size: 25px;
+    text-align: center;
+    border-radius: 100px;
+    margin-top: 25px;
+   
+ 
+    margin-left: 60px;
+    float: left;
+    position: absolute;
+    
+
+}
+
+
+.note2{
+  font-size: 25px;
+  text-align: center;
+  border-radius: 100px;
+  margin-top: 25px;
+
+  margin-left: 150px;
+  float: left;
+  position: absolute;
+  
+
+}
+.note3{
+  font-size: 25px;
+  text-align: center;
+  border-radius: 100px;
+  margin-top: 25px;
+
+  margin-left: 230px;
+  float: left;
+  position: absolute;
+  
+
+}
+.note4{
+  font-size: 25px;
+  text-align: center;
+  border-radius: 100px;
+  margin-top: 25px;
+ 
+
+  margin-left: 320px;
+  float: left;
+  position: absolute;
+  
+
+}
+.fedmore h1{
+  text-align: center;
+  color: goldenrod;
+  left: 600px;
+  top: 35px;
+
+  
+  background-color: black;
+  position: absolute;
+}
+.fedmore{
+  width:100%;
+  height: 88vh;
+  background:black;
+  background-image: url(./image/ninil.jpg);
+ 
+  position: relative;
+  background-position: bottom;
+ 
+  background-size:cover;
+}
+
+
+
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
